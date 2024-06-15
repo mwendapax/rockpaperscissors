@@ -27,7 +27,7 @@ body {
 #game-scores {
     display: flex;
     flex-direction: column;
-    border: 1px solid sienna;
+    border-inline: 1px solid white;
     height: 100%;
     width: 20%;
 }
