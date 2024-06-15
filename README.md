@@ -1,17 +1,21 @@
 # rockpaperscissors
 
-//Project name : Rock Paper scissors Game
+## Project name : Rock Paper scissors Game
 
-//Game rules:
-    // Rock beats scissors
-    // Scissors beat paper
-    // Paper beats rock
+### Game rules:
+    Rock beats scissors
+    Scissors beat paper
+    Paper beats rock
 
 
-User inputs a selection: Rock, Paper or scissors
+### Algorithm
 
-Computer chooses a random pick of Rock or Paper or Scissors
+Two major buttons okbtn and cancelbtn,
+okbtn LISTENS for CLICK
+okbtn STARTS game DISPLAYS PLAYER-BUTTONS; ROCKBTN, PAPERBTN, SCISSORSBTN.
 
-IF computer wins PRINT "Better luck next time, You lose!'
+PLAYER-BUTTONS LISTENS for CLICK PLAYER-BTN
+PLAYER-BTN on CLICK gets COMPUTER-CHOICE-PROMPT
+COMPUTER-CHOICE-PROMPT RUNS COMPUTER-CHOICE-ALGO
+COMPUTER-CHOICE-ALGO RETURNS WINNER and LOSER;
 
-ELSE PRINT "Amazing, You Won!"
