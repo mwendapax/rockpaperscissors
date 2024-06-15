@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
-<body>
-    <script src="script.js"></script>
+<body class="main">
+<div id="game-card">
+    <div id="prompt-box">
+        <div id="prompt-text">
+            Welcome to Rock, Paper, Scissors, START A NEW GAME?
+        </div>
+        <div id="prompt-buttons">
+            <div id="prompt-ok"> <button id="ok-btn">Ok</button></div>
+            <div id="prompt-cancel"><button id ="retry-btn">Retry</button></div>
+        </div>
+    </div>
+
+    <div id="game-scores">
+        <div id="player-result"></div>
+        <div id="computer-result"></div>
+    </div>
+</div>
 </body>
 </html>
