@@ -12,14 +12,12 @@ function gameRulesText (e) {
 
 };
 
-let playerAllCase, playerSelectionconfirm, computerChoiceConfirm, computerAidNumber, computerChooser, computerAidPrompt;
+let playerAllCase, playerSelectionconfirm, computerChoiceConfirm, computerAidNumber, computerChooser;
 
 let computerChoiceAlgo = ["rock", "paper", "scissors"];
 
 function getComputerChoice(computerChoice){
-    computerAidPrompt = prompt(`ENTER A RANDOM NUMBER TO HELP THE COMPUTER MAKE A CHOICE!`, '1893');
-
-    computerAidNumber = Number(computerAidPrompt);
+    computerAidNumber = Math.round(Math.random() * 7);
 
     if (computerAidNumber % 2 == 0 || computerAidNumber % 7 == 0){
         computerChooser = computerChoiceAlgo[0];
